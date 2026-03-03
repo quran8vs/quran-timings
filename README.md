@@ -66,13 +66,13 @@
 ## الاستخدام | Usage
 
 ```javascript
-// جلب البيانات
 fetch('https://raw.githubusercontent.com/quran8vs/quran-timings/main/7/108.json')
   .then(r => r.json())
   .then(data => {
     const verse = data.audio_files[0].verse_timings[0];
-    console.log(verse); // Verse 108:1
+    console.log(verse);
   });
+
 ```
 
 ---
